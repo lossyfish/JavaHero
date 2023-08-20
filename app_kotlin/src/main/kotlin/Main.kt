@@ -4,6 +4,7 @@ fun main() {
     sum(1, 2, 3, 4, 5, 6, 7, 8, 9)
     val nums = intArrayOf(1, 2, 3, 4)
     changeNumbers(*nums, koef=2)
+    val numbers: Array<Int> = arrayOf(1, 2, 3, 4, 5)
 }
 fun sum(vararg numbers: Int){
     var result=0
